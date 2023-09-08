@@ -1,11 +1,15 @@
 class Solver
-	def factorial(n)
-		if n < 0
-			raise ArgumentError, "Factorial is not defined for negative numbers"
-		elsif n == 0
-			1
-		else
-			(1..n).reduce(:*)
-		end
-  	end
+  def factorial(num)
+    if num.negative?
+      raise ArgumentError, 'Factorial is not defined for negative numbers'
+    elsif num.zero?
+      1
+    else
+      (1..num).reduce(:*)
+    end
+  end
+
+  def reverse(word)
+    word.reverse
+  end
 end
