@@ -56,6 +56,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 - Git
 - Ruby
+- Rspec
 
 ### Setup
 
@@ -64,6 +65,23 @@ Clone this repository to your desired folder:
 ```sh
   cd my-folder
   git clone https://github.com/Anand8317/tdd_practice.git
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Install
+
+```sh
+  run cd tdd_practice
+  run bundle install
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Run tests
+
+```sh
+  run rspec spec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
