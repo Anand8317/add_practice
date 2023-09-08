@@ -72,16 +72,18 @@ Clone this repository to your desired folder:
 ### Install
 
 ```sh
-  run cd tdd_practice
-  run bundle install
+  cd tdd_practice
+  bundle install
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Run tests
 
+To run you must have Rspec installed
+
 ```sh
-  run rspec spec
+  rspec spec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
